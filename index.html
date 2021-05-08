@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Central Railway</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="Img/favicon.ico">
+</head>
+<body>
+    <div class="nav">
+        <img align="left" class="logo" src="Img/logo.png" alt="Logo">
+        <img align="center" class="logo" src="Img/scrlogo.png" alt="SCR Logo">
+        <img align="right" class="logo" src="Img/right-logo.png" alt="Emblem">
+    </div>
+    <div class="footer">
+        <span class="pull-left">Copyright ©2021, All rights reserved.</span>
+        <span class="pull-right">By Vivek</span>
+    </div>
+    <div class="container">
+        <div class="login-content">
+            <form id="form">
+                <img src="Img/avatar.svg">
+                <h2 class="title">Welcome</h2>
+                <div class="input-div one">
+                <div class="i">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="div">
+                        <h5>Username</h5>
+                        <input type="text" class="input" id="username">
+                </div>
+                </div>
+                <div class="input-div pass">
+                    <div class="i"> 
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Password</h5>
+                        <input type="password" class="input" id="password">
+                    </div>
+                </div>
+                <a href="#">Forgot Password?</a>
+                <input type="submit" class="btn" value="Login" onclick="javascript:validate()">
+            </form>
+        </div>
+    </div>
+</div>
+<script src="login.js"></script>
+</body>
+</html>

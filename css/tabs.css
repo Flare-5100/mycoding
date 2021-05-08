@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  font-family: 'poppins', sans-serif;
+}
+
+.navbar {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: #000;
+  height: 100px;
+}
+
+.navbar .logo {
+  margin-top: 5px;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  cursor: pointer;
+}
+
+.navbar .logo:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+
+.navbar .menu {
+  bottom: 50%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-left: 10em;
+  height: 75px !important;
+}
+
+.navbar .menu li {
+  margin-top: 20px;
+  float: left;
+  background-color: #333;
+}
+
+.navbar .menu li .sub-menu {
+  display: none;
+  position: absolute;
+  background-color: #333333;
+  list-style-type: none;
+  padding: 0;
+  -webkit-transition: all .22s ease;
+  transition: all .22s ease;
+}
+
+.navbar .menu li .sub-menu li {
+  margin: -1.5px;
+}
+
+.navbar .menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+
+.navbar .menu li a:hover {
+  background-color: #111;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+
+.navbar .menu li:hover > .sub-menu {
+  display: block;
+  -webkit-transition: all .22s ease;
+  transition: all .22s ease;
+}
+
+menu .material-icons {
+  position: fixed;
+  left: -10px;
+  vertical-align: middle;
+  font-size: 1px !important;
+}
+
+.footer {
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  background: #3d3d3d;
+  color: white;
+  height: 38px;
+  line-height: 40px;
+  padding-left: 5px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.footer .pull-left {
+  float: left !important;
+}
+
+.footer .pull-right {
+  float: right !important;
+  margin-right: 30px;
+}
+/*# sourceMappingURL=tabs.css.map */
