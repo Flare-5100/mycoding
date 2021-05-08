@@ -44,7 +44,7 @@ inputs.forEach(input => {
 function validate(){
     if(   document.getElementById("username").value == "admin"
     && document.getElementById("password").value == "123" ){
-        alert( "validation succeeded" );
+        // alert( "validation succeeded" );
         window.open("tabs.html");
     }
     else{
